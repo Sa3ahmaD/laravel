@@ -18,7 +18,7 @@ use Illuminate\Http\Request;
 */
 
 // Route::get('/', 'App\Http\Controllers\MainController@sayHi');
-// Route::get('/', [MainController::class, 'welcome']);
+Route::get('/', [MainController::class, 'welcome']);
 // Route::get('/features', [MainController::class, 'features']);
 // Route::get('/contact', [MainController::class, 'contact']);
 // Route::get('/people', [MainController::class, 'allPeople']);
@@ -26,7 +26,7 @@ use Illuminate\Http\Request;
 // Route::get('/form', [FormController::class, 'displayForm'])->name("form.create");
 // Route::post('/save', [FormController::class, 'saveForm'])->name("form.save");
 
-Route::get('/', [PostController::class, 'createPost'])->name("post.create");
+// Route::get('/', [PostController::class, 'createPost'])->name("post.create");
 
 
 
